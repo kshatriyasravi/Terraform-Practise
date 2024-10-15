@@ -1,0 +1,103 @@
+{
+  "Terraform-Group-output": {
+    "sensitive": false,
+    "type": [
+      "object",
+      {
+        "arn": "string",
+        "id": "string",
+        "name": "string",
+        "path": "string",
+        "unique_id": "string"
+      }
+    ],
+    "value": {
+      "arn": "arn:aws:iam::905418357533:group/Terraform-Group",
+      "id": "Terraform-Group",
+      "name": "Terraform-Group",
+      "path": "/",
+      "unique_id": "AGPA5FTZDXMOYEILPXJ5K"
+    }
+  },
+  "Terraform-Group_policy-attachment-output": {
+    "sensitive": false,
+    "type": [
+      "object",
+      {
+        "group": "string",
+        "id": "string",
+        "policy_arn": "string"
+      }
+    ],
+    "value": {
+      "group": "Terraform-Group",
+      "id": "Terraform-Group-20241015075833579900000002",
+      "policy_arn": "arn:aws:iam::905418357533:policy/Terraform-Group-policy"
+    }
+  },
+  "Terraform-user-Access-Key-output": {
+    "sensitive": false,
+    "type": "string",
+    "value": "AKIA5FTZDXMOQMO22XSD"
+  },
+  "Terraform-user-Access-key-secret-output": {
+    "sensitive": true,
+    "type": "string",
+    "value": "hnCSEL2Mc0YpIyARHj2IW8M4nVf0ByM7NDSo7QF8"
+  },
+  "Terraform-user-addtion-output": {
+    "sensitive": false,
+    "type": [
+      "object",
+      {
+        "groups": [
+          "set",
+          "string"
+        ],
+        "id": "string",
+        "user": "string"
+      }
+    ],
+    "value": {
+      "groups": [
+        "Terraform-Group"
+      ],
+      "id": "terraform-20241015075833455100000001",
+      "user": "Terraform-user"
+    }
+  },
+  "Terraform-user-output": {
+    "sensitive": false,
+    "type": [
+      "object",
+      {
+        "arn": "string",
+        "force_destroy": "bool",
+        "id": "string",
+        "name": "string",
+        "path": "string",
+        "permissions_boundary": "string",
+        "tags": [
+          "map",
+          "string"
+        ],
+        "tags_all": [
+          "map",
+          "string"
+        ],
+        "unique_id": "string"
+      }
+    ],
+    "value": {
+      "arn": "arn:aws:iam::905418357533:user/Terraform-user",
+      "force_destroy": false,
+      "id": "Terraform-user",
+      "name": "Terraform-user",
+      "path": "/",
+      "permissions_boundary": "",
+      "tags": null,
+      "tags_all": {},
+      "unique_id": "AIDA5FTZDXMORZARH6HRU"
+    }
+  }
+}
