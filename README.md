@@ -22,4 +22,4 @@ terraform output Terraform-user-Access-key-id
 AKIAIOSFODNN7EXAMPLE
 
 $ terraform output Terraform-user-Access-key-secret
-<secret key will be displayed here>
+<secret key will be displayed here
